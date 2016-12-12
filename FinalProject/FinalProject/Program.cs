@@ -194,7 +194,8 @@ class MyInventory
                                 double ValueofItem = (itemData[x].dblPricePerItem) * (itemData[x].iQuantityOnHand);
                                 itemData[x].dblValueOfItem = ValueofItem;
                                 Console.WriteLine("Value of item = {0}", ValueofItem);
-                                if(edit < 1 || edit > 6) {
+                                if (edit < 1 || edit > 6)
+                                {
                                     Console.WriteLine("Invalid entry.");
                                     break;
                                 }
